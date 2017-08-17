@@ -42,11 +42,10 @@ class Home extends React.Component{
 }
 
 export default StackNavigator({
-	Home : {
-		screen : Home
-	},
 	Result : {
 		screen : Details
+	},
+	Home : {
+		screen : Home
 	}
-
 })
